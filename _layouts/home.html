@@ -2,117 +2,163 @@
 layout: default
 refactor: true
 ---
+  <style>
+      /* Global Styles */
+      body {
+          margin: 50px 12%;
+          background-color: #1c1c1c;
+          color: #fff;
+          font-family: 'Roboto', sans-serif;
+      }
 
-{% include lang.html %}
+      /* Header Styles */
+      h1 {
+          text-align: center;
+          font-weight: bold;
+          margin-bottom: 30px;
+          position: relative;
+      }
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+      /* Landing Container Styles */
+      .landing-container {
+          display: flex;
+          flex-wrap: wrap; /* Added to allow wrapping on smaller screens */
+          justify-content: space-between;
+          margin-top: 50px;
+      }
 
-{% assign posts = '' | split: '' %}
+      /* Image Container Styles */
+      .image-container {
+          position: relative;
+          width: 40%;
+          margin-bottom: 20px;
+          overflow: hidden;
+      }
 
-<!-- Get pinned posts -->
+      .image-container img {
+          width: 100%;
+          border-radius: 8px;
+      }
 
-{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign pinned_num = pinned.size | minus: offset %}
+      .text-box {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 80%;
+          background-color: #343a40;
+          color: #fff;
+          padding: 8px;
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+      }
 
-{% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
-{% else %}
-  {% assign pinned_num = 0 %}
-{% endif %}
+      .text-box a {
+          color: #fff;
+          font-weight: bold;
+          text-decoration: none;
+      }
 
-<!-- Get default posts -->
+      .image-container:hover .text-box {
+          transform: scale(1.2);
+      }
 
-{% assign default_beg = offset | minus: pinned.size %}
+      /* Blog Container Styles */
+      .blog-container {
+          width: 55%;
+          padding-left: 20px;
+          margin-top: 20px; /* Adjusted margin */
+      }
 
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
+      .blog-container h1,
+      .blog-container h2 {
+          font-size: 1.5em;
+          color: #fff;
+          margin-top: 0; /* Removed margin-top for h1 and h2 */
+      }
 
-{% assign default_num = paginator.posts | size | minus: pinned_num %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
+      .blog-container p {
+          color: #a0a0a0;
+      }
 
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
-{% endif %}
+      .blog-container a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+      }
 
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in posts %}
-    <article class="card-wrapper card">
-      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
-        {% assign card_body_col = '12' %}
+      .blog-container p a {
+          font-weight: normal;
+      }
 
-        {% if post.image %}
-          {% assign src = post.image.path | default: post.image %}
-          {% unless src contains '//' %}
-            {% assign src = post.img_path | append: '/' | append: src | replace: '//', '/' %}
-          {% endunless %}
+      /* Footer Styles */
+      #gallery-link,
+      #latest-post-link {
+          display: block;
+          margin-top: 20px;
+          font-size: 1.2em;
+      }
 
-          {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
+      #site-description {
+          margin-top: 20px; /* Adjusted margin */
+          font-size: 1.2em;
+      }
 
-          {% assign lqip = null %}
+      /* About Section Styles */
+      #about-section {
+          margin-top: 50px;
+          font-size: 1.2em;
+      }
+  </style>
 
-          {% if post.image.lqip %}
-            {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
-          {% endif %}
+##Put your text here.##
 
-          <div class="col-md-5">
-            <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+  <!-- Landing Container Section -->
+  <div class="landing-container">
+      <!-- Photo Gallery Section -->
+      <div class="image-container">
+          <h3><a href="https://www.seriouslymatt.com/" style="color: #fff; text-decoration: none;">Photo Gallery</a></h3>
+          <div class="text-box">
+              <p style="font-weight: bold; font-size: 1.5em; color: #fff;"><a href="https://www.seriouslymatt.com/">Test 1</a></p>
           </div>
+          <a href="https://www.seriouslymatt.com/">
+              <img src="/assets/img/20230709_matt.JPG" alt="Happy Matt">
+          </a>
+          <p><a href="https://www.seriouslymatt.com/">View Entire Image Gallery</a></p>
+      </div>
 
-          {% assign card_body_col = '7' %}
-        {% endif %}
+      <!-- Latest Blog Post Section -->
+      <div class="blog-container">
+          <h1>Latest Blog Posts</h1>
+          <h2><a href="https://www.seriouslymatt.com/posts/bikeoverhaul/">Bike Overhaul</a></h2>
+          <p>Story from Biking MD continues. After multiple lunch-time trips around the BWI path, the old 1971 Schwinn
+              “knock-off” (it was made in Japan and only shows the Schwinn name on... </p>
+          <p style="font-size: 0.8em; color: #fff;"><a href="https://www.seriouslymatt.com/posts/bikeoverhaul/">December 28,
+                  2023</a></p>
 
-        <div class="col-md-{{ card_body_col }}">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
+          <h2><a href="https://www.seriouslymatt.com/posts/hanukkah2023/">Hanukkah 2023</a></h2>
+          <p>It is not about the presents, But it is fun to see and remember them</p>
+          <p style="font-size: 0.8em; color: #fff;"><a href="https://www.seriouslymatt.com/posts/hanukkah2023/">December
+                  16, 2023</a></p>
 
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                {% include no-linenos.html content=post.content %}
-                {{ content | markdownify | strip_html | truncate: 200 | escape }}
-              </p>
-            </div>
+          <p><a id="latest-post-link" href="https://www.seriouslymatt.com/">View All Posts</a></p>
+      </div>
+  </div>
 
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                {% include datetime.html date=post.date lang=lang %}
+  <!-- About Section -->
+  <div id="about-section">
+      <h1>About Seriously Matt</h1>
+      <p>Seriously Matt was created to juxtapose my natural serious demeanor with the eccentric and mundane musings of
+          the trivial. I wanted to be able to share about the serious topics that pique my interest. And I wanted to
+          write how my viewpoints on fruit are highly dependent on their seed size relative to my teeth. My theme
+          encompasses my interests which change by the year, month, or week.</p>
 
-                <!-- categories -->
-                {% if post.categories.size > 0 %}
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    {% for category in post.categories %}
-                      {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
-                    {% endfor %}
-                  </span>
-                {% endif %}
-              </div>
+      <p>Another major reason for this website is the IndieWeb where people own and maintain their content. I generate
+          content on my site, and share it on other platforms. There are links on this tab to verify my account across
+          sites.</p>
 
-              {% if post.pin %}
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-                </div>
-              {% endif %}
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  {% endfor %}
-</div>
-<!-- #post-list -->
+      <p>I don’t have comments enabled, but if someone finds one of my posts interesting, let me know in one of the
+          social media links provided. Please forgive all spelling and grammatical mistakes.</p>
+  </div>
 
-{% if paginator.total_pages > 1 %}
-  {% include post-paginator.html %}
-{% endif %}
+
+</body>
