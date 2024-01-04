@@ -1,6 +1,6 @@
 ---
 layout: blog_home
-icon: fas fa-solid fa-b
+icon: fas fa-b
 order: 1
 ---
 
