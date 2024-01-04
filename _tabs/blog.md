@@ -1,6 +1,6 @@
 ---
-layout: blog-home
-icon: fas fa-info-circle
+layout: blog_home
+icon: fas fa-circle
 order: 1
 ---
 
