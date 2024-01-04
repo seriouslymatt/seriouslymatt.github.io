@@ -1,5 +1,5 @@
 ---
-layout: blog_home
+layout: blog
 icon: fas fa-b
 order: 1
 ---
