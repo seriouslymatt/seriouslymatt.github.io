@@ -1,7 +1,7 @@
 ---
 title: Diet and Heart Disease
 date: 2022-11-22 17:00:00 -0500
-categories: [Health, Diet]
+categories: [Health]
 tags: [health, diet, heart disease, podcast, jogging]     # TAG names should always be lowercase
 header:
     teaser: "/assets/img/20221122_erinmichos.png"

@@ -1,7 +1,7 @@
 ---
 title: Electrolyte Water
 date: 2023-04-09 09:00:00 -0500
-categories: [Health, Performance]
+categories: [Health]
 tags: [electrolytes, water, salts, recovery]     # TAG names should always be lowercase
 header:
     teaser: "/assets/img/20230409_electrolytes.JPG"

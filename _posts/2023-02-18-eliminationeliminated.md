@@ -1,7 +1,7 @@
 ---
 title: Elimination Diet Eliminated
 date: 2023-02-18 12:00:00 -0500
-categories: [Health, Diet]
+categories: [Health]
 tags: [diet, elimination, food, migraines]     # TAG names should always be lowercase
 header:
     teaser: "/assets/img/20230218_nomigraine.JPG"

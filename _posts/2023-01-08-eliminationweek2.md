@@ -1,7 +1,7 @@
 ---
 title: Elimination Diet, Week 2
 date: 2023-01-08 19:00:00 -0500
-categories: [Health, Diet]
+categories: [Health]
 tags: [diet, elimination, food, migraines, coffee]     # TAG names should always be lowercase
 header:
     teaser: "/assets/img/20230108_coffee.JPG"

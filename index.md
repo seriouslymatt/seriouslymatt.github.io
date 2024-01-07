@@ -1,6 +1,7 @@
 ---
 title: "Seriously Matt"
 layout: splash
+permalink: /
 hidden: true
 header:
   overlay_color: "#000"
