@@ -32,7 +32,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row_left:
-  - image_path: /assets/splash/feat2.jpg
+  - image_path: /assets/splash/feat2.JPG
     title: "Weird and Wacky"
     excerpt: "There is nothing more to read yet."
     url: "#test-link"
