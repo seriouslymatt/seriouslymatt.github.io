@@ -5,8 +5,8 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/splash/coffee.jpg
+  overlay_filter: "0.1"
+  overlay_image: /assets/splash/seattleskyline.JPG
   actions:
     - label: "Blog"
       url: "/blog/"
@@ -20,10 +20,10 @@ feature_row:
     url: /hobbies/bikeoverhaul/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/splash/feat1-2.jpg
-    title: "Isn't Nature Grand?"
-    excerpt: "There is nothing more to read yet."
-    url: "#test-link"
+  - image_path: /assets/img/20240113_rats4.JPG
+    title: "Farewell Dear Friends"
+    excerpt: "Read about our Rats."
+    url: "/obituary/ohrats/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/splash/feat1-3.jpg

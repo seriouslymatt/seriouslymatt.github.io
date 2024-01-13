@@ -105,20 +105,20 @@ analytics:
 # Site Author
 author:
   name             : "Matt Tucker"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "TBD"
+  avatar           : "/assets/favicon/seriously.png"
+  bio              : "Just a guy taking pictures and writing about stuff."
   location         : "Maryland"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Twitter"
+      url: "mailto:p5232blog@gmail.com"
+    - label: "Bluesky"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://bsky.app/profile/p5232.bsky.social"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/matt.tucker.39501"
 
 
 # Site Footer
@@ -269,3 +269,4 @@ defaults:
       share: true
       related: true
       show_date: true
+      author_profile: true
