@@ -1,7 +1,7 @@
 ---
 title: Gallery 2
 layout: gallery
-permalink: /gallery/gallery2
+permalink: /gallery/gallery2/
 categories:
   - Gallery
 tags:
