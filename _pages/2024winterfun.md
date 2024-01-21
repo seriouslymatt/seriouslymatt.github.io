@@ -9,13 +9,12 @@ tags:
   - winter
   - sledding
 ---
-Here are pictures from our...
+Here are pictures from sledding.
 
-<figure class="third" style="text-align: center; align-items: center">
-	<a href="/assets/img/20231216_lego2.JPG"><img src="/assets/img/20231216_lego2.JPG" alt="test1" style='max-height:15em; width:auto'></a>
-  <a href="/assets/img/20240113_rats5.JPG"><img src="/assets/img/20240113_rats5.JPG" alt="test1" style='max-height:15em; width:auto'></a>
-  <a href="/assets/img/20231216_lego2.JPG"><img src="/assets/img/20231216_lego2.JPG" alt="test1" style='max-height:15em; width:auto'></a>
-</figure>
+<figure class="half" style="text-align: center; align-items: center">
+	<a href="/assets/gal/2024 Oliver Sledding leaning back.JPG"><img src="/assets/gal/2024 Oliver Sledding leaning back.JPG" alt="2024 Olivers Sledding leaning back" style='max-height:15em; width:auto'></a>
+  <a href="/assets/gal/2024 Zera Sledding face first.JPG"><img src="/assets/gal/2024 Zera Sledding face first.JPG" alt="Zera Sledding face first" style='max-height:15em; width:auto'></a>
+
 
 <figure class="third" style="text-align: center; align-items: center" >
   <a href="/assets/img/20240113_rats5.JPG"><img src="/assets/img/20240113_rats5.JPG" alt="test1" style='max-height:15em; width:auto'></a>
