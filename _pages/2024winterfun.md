@@ -15,11 +15,19 @@ Here are pictures from sledding.
 	<a href="/assets/gal/2024 Oliver Sledding leaning back.JPG"><img src="/assets/gal/2024 Oliver Sledding leaning back.JPG" alt="2024 Olivers Sledding leaning back" style='max-height:15em; width:auto'></a>
   <a href="/assets/gal/2024 Zera Sledding face first.JPG"><img src="/assets/gal/2024 Zera Sledding face first.JPG" alt="Zera Sledding face first" style='max-height:15em; width:auto'></a>
 
+<figure class="half" style="text-align: center; align-items: center">
+	<a href="/assets/gal/2024 Oliver sledding GIF.gif"><img src="/assets/gal/2024 Oliver sledding GIF.gif" alt="2024 Olivers Sledding GIF" style='max-height:15em; width:auto'></a>
+  <a href="/assets/gal/2024 Zera sledding GIF.gif"><img src="/assets/gal/2024 Zera sledding GIF.gif" alt="Zera Sledding GIF" style='max-height:15em; width:auto'></a>
 
-<figure class="third" style="text-align: center; align-items: center" >
+<figure class="half" style="text-align: center; align-items: center">
+	<a href="/assets/gal/2024 Large Snowman.JPG"><img src="/assets/gal/2024 Large Snowman.JPG" alt="2024 Large Snowman" style='max-height:15em; width:auto'></a>
+  <a href="/assets/gal/2024 Large Icicle hanging from house.JPG"><img src="/assets/gal/2024 Large Icicle hanging from house.JPG" alt="Large icicle hanging from house" style='max-height:15em; width:auto'></a>
+
+
+<!-- <figure class="third" style="text-align: center; align-items: center" >
   <a href="/assets/img/20240113_rats5.JPG"><img src="/assets/img/20240113_rats5.JPG" alt="test1" style='max-height:15em; width:auto'></a>
   <a href="/assets/img/20240113_rats5.JPG"><img src="/assets/img/20240113_rats5.JPG" alt="test1" style='max-height:15em; width:auto'></a>
   <a href="/assets/splash/seattleskyline.JPG"><img src="/assets/splash/seattleskyline.JPG" alt="test1" style='max-height:15em; width:auto'></a>
-</figure>
+</figure> -->
 
 Here is a gallery of photos from our trip to Busch Gardens
