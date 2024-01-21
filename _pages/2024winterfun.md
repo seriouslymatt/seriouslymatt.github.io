@@ -23,6 +23,8 @@ Here are pictures from sledding.
 	<a href="/assets/gal/2024 Large Snowman.JPG"><img src="/assets/gal/2024 Large Snowman.JPG" alt="2024 Large Snowman" style='max-height:15em; width:auto'></a>
   <a href="/assets/gal/2024 Large Icicle hanging from house.JPG"><img src="/assets/gal/2024 Large Icicle hanging from house.JPG" alt="Large icicle hanging from house" style='max-height:15em; width:auto'></a>
 
+  Thanks for stopping by!
+
 
 <!-- <figure class="third" style="text-align: center; align-items: center" >
   <a href="/assets/img/20240113_rats5.JPG"><img src="/assets/img/20240113_rats5.JPG" alt="test1" style='max-height:15em; width:auto'></a>
