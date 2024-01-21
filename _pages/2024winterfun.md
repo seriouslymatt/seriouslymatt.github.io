@@ -16,8 +16,8 @@ Here are pictures from sledding.
   <a href="/assets/gal/2024 Zera Sledding face first.JPG"><img src="/assets/gal/2024 Zera Sledding face first.JPG" alt="Zera Sledding face first" style='max-height:15em; width:auto'></a>
 
 <figure class="half" style="text-align: center; align-items: center">
-	<a href="/assets/gal/2024 Oliver sledding GIF.gif"><img src="/assets/gal/2024 Oliver sledding GIF.gif" alt="2024 Olivers Sledding GIF" style='max-height:15em; width:auto'></a>
-  <a href="/assets/gal/2024 Zera sledding GIF.gif"><img src="/assets/gal/2024 Zera sledding GIF.gif" alt="Zera Sledding GIF" style='max-height:15em; width:auto'></a>
+	<a href="/assets/gal/2024 Oliver sledding GIF2.gif"><img src="/assets/gal/2024 Oliver sledding GIF2.gif" alt="2024 Olivers Sledding GIF" style='max-height:15em; width:auto'></a>
+  <a href="/assets/gal/2024 Zera sledding GIF2.gif"><img src="/assets/gal/2024 Zera sledding GIF2.gif" alt="Zera Sledding GIF" style='max-height:15em; width:auto'></a>
 
 <figure class="half" style="text-align: center; align-items: center">
 	<a href="/assets/gal/2024 Large Snowman.JPG"><img src="/assets/gal/2024 Large Snowman.JPG" alt="2024 Large Snowman" style='max-height:15em; width:auto'></a>
