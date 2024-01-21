@@ -1,7 +1,7 @@
 ---
 title: Gallery 1
 layout: splash
-permalink: /gallery/gallery1
+permalink: /gallery/gallery1/
 categories:
   - Gallery
 tags:
