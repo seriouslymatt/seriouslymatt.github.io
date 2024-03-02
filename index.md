@@ -6,11 +6,11 @@ hidden: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.1"
-  overlay_image: /assets/splash/seattleskyline.JPG
+  overlay_image: /assets/splash/IM-1LandingDynamic.jpg
   actions:
     - label: "Blog"
       url: "/blog/"
-excerpt: "Sit back, this might be a while."
+excerpt: "Time to jump in."
 intro: 
   - excerpt: '"You should make your choices as though you were choosing on behalf of the whole humanity, taking the entire burden of responsibility for how the human race behaves."'
 feature_row:
