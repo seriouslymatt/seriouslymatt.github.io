@@ -5,12 +5,12 @@ categories: [Hobbies]
 tags: [hobbies, biking, repair]     # TAG names should always be lowercase
 header:
     teaser: "/assets/img/20240302_bike_after (10).JPG"
-excerpt: "Restoring a 1984 Schwinn Travler to her former glory"
+excerpt: "Restoring a 1984 Schwinn Traveler to her former glory"
 ---
 
-This is what happens when you finish your winter project and head back to work. You find a void in your garage and new tools unused. Heading to an online marketplace, you find a 1984 Schwinn Traveler with a price of "$1 make an offer." The bike owners live in the same town as my parents. My Dad was graciously willing to head over and pick up the bike. The owner of the bike, after hearing how I fix old bikes while keeping as many original parts as possible, refused to take any money for the bike asking for photos instead. This blog post is for you, unknown, kind, stranger. I hope you like the new look of the bike. 
+This is what happens when you finish your winter project and head back to work. You find a void in your garage and new tools unused. Heading to an online marketplace, you find a 1984 Schwinn Traveler with a price of "$1 make an offer." The bike owners live in the same town as my parents. My Dad graciously offered to head over and pick up the bike. The owner of the bike, after hearing how I fix old bikes while keeping as many original parts as possible, refused to take any money for the bike asking for photos instead. This blog post is for you, unknown, kind, stranger. I hope you like the new look of the bike. 
 
-After seeing the bike in person, I just knew it had some great bones under the grease and dust. I liked how the bike brand and model lettering were clearlly visible. The subtle white and yellow lettering on a light blue provided some color schemes to use for the parts of the bike that need replacing.
+After seeing the bike in person, I just knew it had some great bones under the grease and dust. I liked how the brand and model lettering were clearly visible. The subtle white and yellow lettering on a light blue provided some color schemes to use for the parts of the bike that need replacing.
 
 ### Before
 Here are some before pictures:
@@ -39,8 +39,8 @@ Here are some before pictures:
 Here are some during the rebuild pictures:
 
 <figure class="half">
-    <a href="/assets/img/20240302_bike_during (1).JPG"><img src="/assets/img/20240302_bike_during (1).JPG" alt="during rebuild picture of the bike"></a>
-    <a href="/assets/img/20240302_bike_during (2).JPG"><img src="/assets/img/20240302_bike_during (2).JPG" alt="during rebuild picture of the bike"></a>
+    <a href="/assets/img/20240302_bike_during (1).jpg"><img src="/assets/img/20240302_bike_during (1).jpg" alt="during rebuild picture of the bike"></a>
+    <a href="/assets/img/20240302_bike_during (2).jpg"><img src="/assets/img/20240302_bike_during (2).jpg" alt="during rebuild picture of the bike"></a>
 </figure>
 
 <figure class="half">
