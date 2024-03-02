@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/splash/feat1-1.jpg
     title: "Biking and Bike Repair"
     excerpt: "Read the latest post."
-    url: /hobbies/bikeoverhaul/
+    url: /hobbies/bikeoverhaul2/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/img/20240113_rats4.JPG
