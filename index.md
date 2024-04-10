@@ -37,14 +37,14 @@ feature_row_left:
     title: "Weird and Wacky"
     excerpt: "There is nothing more to read yet."
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Read More Later"
     btn_class: "btn--primary"
 feature_row_right:
   - image_path: /assets/splash/feat3.jpg
     title: "Matt Hobbies"
     excerpt: "There is nothing more to read yet."
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Read More Later"
     btn_class: "btn--primary"
 ---
 
