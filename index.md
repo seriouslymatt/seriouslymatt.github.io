@@ -27,10 +27,10 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/splash/feat1-3.jpg
-    title: "Down by the water"
-    excerpt: "There is nothing more to read yet."
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "Total Eclipse of the Sun"
+    excerpt: "These images are amazing."
+    url: "/gallery/2024solareclipse/"
+    btn_label: "See More"
     btn_class: "btn--primary"
 feature_row_left:
   - image_path: /assets/splash/feat2.JPG
