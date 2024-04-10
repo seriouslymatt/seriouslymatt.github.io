@@ -18,7 +18,7 @@ feature_row:
     title: "Total Eclipse of the Sun"
     excerpt: "These images are amazing."
     url: "/trips/eclipse/"
-    btn_label: "See More"
+    btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/splash/feat1-1.jpg
     title: "Biking and Bike Repair"
