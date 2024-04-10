@@ -6,7 +6,7 @@ hidden: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.1"
-  overlay_image: /assets/splash/IM-1LandingDynamic.jpg
+  overlay_image: /assets/splash/3sunshots.JPG
   actions:
     - label: "Blog"
       url: "/blog/"
@@ -14,6 +14,12 @@ excerpt: "Time to jump in."
 intro: 
   - excerpt: '"You should make your choices as though you were choosing on behalf of the whole humanity, taking the entire burden of responsibility for how the human race behaves."'
 feature_row:
+  - image_path: /assets/splash/feat1-3.jpg
+    title: "Total Eclipse of the Sun"
+    excerpt: "These images are amazing."
+    url: "/trips/eclipse/"
+    btn_label: "See More"
+    btn_class: "btn--primary"
   - image_path: /assets/splash/feat1-1.jpg
     title: "Biking and Bike Repair"
     excerpt: "Read the latest post."
@@ -25,12 +31,6 @@ feature_row:
     excerpt: "Read about our Rats."
     url: "/obituary/ohrats/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/splash/feat1-3.jpg
-    title: "Total Eclipse of the Sun"
-    excerpt: "These images are amazing."
-    url: "/gallery/2024solareclipse/"
-    btn_label: "See More"
     btn_class: "btn--primary"
 feature_row_left:
   - image_path: /assets/splash/feat2.JPG
