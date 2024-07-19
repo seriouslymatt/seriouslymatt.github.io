@@ -6,6 +6,8 @@ hidden: true
 
 Photo Gallery
 
+<a href="/gallery/2024italy/">2024 Italy Trip</a>
+
 <a href="/gallery/2024solareclipse/">2024 Solar Eclipse</a>
 
 <a href="/gallery/2024winterfun/">2024 Winter Fun</a>
