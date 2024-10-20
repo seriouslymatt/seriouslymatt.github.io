@@ -36,8 +36,8 @@ feature_row_left:
   - image_path: /assets/splash/feat2.JPG
     title: "Weird and Wacky"
     excerpt: "There is nothing more to read yet."
-    url: "#test-link"
-    btn_label: "Read More Later"
+    url: "/weird-and-wacky"
+    btn_label: "See More Here"
     btn_class: "btn--primary"
 feature_row_right:
   - image_path: /assets/splash/feat3.jpg
