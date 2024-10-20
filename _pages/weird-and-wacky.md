@@ -8,12 +8,12 @@ tags:
   - weird
   - wacky
 gallery_one:
-  - url: /assets/gal/20241019-bird-parade.jpg
-    image_path: /assets/gal/20241019-bird-parade.jpg
-    alt: "Image of Birds lined up in a parade on the pier"
-    title: "Bird Parade"
+#   - url: /assets/gal/20241019-bird-parade.jpg
+  - image_path: /assets/gal/20241019-bird-parade.jpg
+  - alt: "Image of Birds lined up in a parade on the pier"
+  - title: "Bird Parade"
 ---
-Pictures from the Bird Parade
+### Pictures from the Bird Parade
 
 {% include gallery id="gallery_one" type="center" caption="Bird Parade" %}
 
