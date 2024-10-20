@@ -8,7 +8,7 @@ tags:
   - weird
   - wacky
 gallery_one:
-#   - url: /assets/gal/20241019-bird-parade.jpg
+  - url: /assets/gal/20241019-bird-parade.jpg
   - image_path: /assets/gal/20241019-bird-parade.jpg
   - alt: "Image of Birds lined up in a parade on the pier"
   - title: "Bird Parade"
