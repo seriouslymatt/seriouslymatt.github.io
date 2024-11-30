@@ -4,10 +4,10 @@ Meg Tucker:
   name        : "Meg Tucker"
   bio         : "Lovely Wife"
   avatar      : "/assets/favicon/megtucker.png"
-  # links:
-  #   - label: "Email"
-  #     icon: "fas fa-fw fa-envelope-square"
-  #     url: "mailto:billyrick@rick.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:no_email@no_email.com"
   #   - label: "Website"
   #     icon: "fas fa-fw fa-link"
   #     url: "https://thewhip.com"
